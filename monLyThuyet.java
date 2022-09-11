@@ -7,6 +7,7 @@ public class monLyThuyet extends monHoc {
 
     Scanner sc = new Scanner(System.in);
 
+    // --- constructor, set-get --- //
     public monLyThuyet() {
         setLoaiMon("Ly Thuyet");
     }
@@ -25,6 +26,7 @@ public class monLyThuyet extends monHoc {
         return diemCuoiKy;
     }
 
+    // --- methods ---- //
     @Override
     public void nhapMon() {
         super.nhapMon();

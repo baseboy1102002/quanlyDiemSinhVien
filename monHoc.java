@@ -9,6 +9,7 @@ public abstract class monHoc {
 
     Scanner sc = new Scanner(System.in);
 
+    // --- constructor, set-get --- //
     public monHoc() {}
     public void setMaMonHoc(String maMonHoc) {
         this.maMonHoc = maMonHoc;
@@ -41,6 +42,7 @@ public abstract class monHoc {
         return loaiMon;
     }
 
+    // --- methods ---- //
     public void nhapMon() {
         System.out.println("Nhap ma mon:");
         setMaMonHoc(sc.nextLine());

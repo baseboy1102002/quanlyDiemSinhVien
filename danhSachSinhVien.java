@@ -6,6 +6,7 @@ public class danhSachSinhVien {
 
     Scanner sc = new Scanner(System.in);
 
+    // --- constructor, set-get --- //
     public danhSachSinhVien() {};
     public void setDssv(sinhVien[] dssv) {
         this.dssv = dssv;
@@ -14,6 +15,7 @@ public class danhSachSinhVien {
         return dssv;
     }
 
+    // --- methods ---- //
     public void nhapdssv() {
         System.out.println("Nhap so sinh vien:");
         n = Integer.parseInt(sc.nextLine());

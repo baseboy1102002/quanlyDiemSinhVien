@@ -6,6 +6,7 @@ public class monDoAn extends monHoc{
 
     Scanner sc = new Scanner(System.in);
 
+    // --- constructor, set-get --- //
     public monDoAn() {
         setLoaiMon("Do An");
     }
@@ -22,6 +23,7 @@ public class monDoAn extends monHoc{
         return diemGVPB;
     }
 
+    // --- methods ---- //
     @Override
     public void nhapMon() {
         super.nhapMon();

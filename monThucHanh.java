@@ -8,6 +8,7 @@ public class monThucHanh extends monHoc{
 
     Scanner sc = new Scanner(System.in);
 
+    // --- constructor, set-get --- //
     public monThucHanh() {
         setLoaiMon("Thuc Hanh");
     }
@@ -18,6 +19,8 @@ public class monThucHanh extends monHoc{
         this.diem4 = d4;
     }
 
+
+    // --- methods ---- //
     @Override
     public void nhapMon() {
         super.nhapMon();

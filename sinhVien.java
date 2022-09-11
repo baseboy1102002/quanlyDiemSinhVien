@@ -7,6 +7,7 @@ public class sinhVien {
 
     Scanner sc = new Scanner(System.in);
 
+    // --- constructor, set-get --- //
     public sinhVien() {}
 
     public void setMaSv(String maSv) {
@@ -22,6 +23,7 @@ public class sinhVien {
         return tenSV;
     }
 
+    // --- methods ---- //
     public void nhapsv() {
         System.out.println("Nhap ma sv:");
         setMaSv(sc.nextLine());
