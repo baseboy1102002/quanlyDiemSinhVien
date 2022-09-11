@@ -5,6 +5,7 @@ public class danhSachMonHoc {
 
     Scanner sc = new Scanner(System.in);
     
+    // --- constructor, set-get --- //
     public danhSachMonHoc() {}
     public void setDsmonhoc(monHoc[] dsmonhoc) {
         this.dsmonhoc = dsmonhoc;
@@ -13,6 +14,7 @@ public class danhSachMonHoc {
         return dsmonhoc;
     }
 
+    // --- methods ---- //
     public void nhapdsmh() {
         System.out.println("Nhap so mon hoc:");
         dsmonhoc = new monHoc[Integer.parseInt(sc.nextLine())];
